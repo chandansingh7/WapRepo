@@ -33,9 +33,10 @@ pre {
 a {
 	color: #A4A400;
 }
-.copyright{
-    max-width: max-content;
-    white-space: pre-line;
+.copyright{    
+    white-space:pre-line;
 	text-align: right;
-	
+}
+footer{
+    text-align: right;
 }
