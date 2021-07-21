@@ -1,0 +1,41 @@
+body {	
+    font-family: Georgia, Garamond, sans-serif;
+	font-size: 11pt;
+    color: #404040;	
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    text-decoration: underline;
+    color: #A4A400;	
+	background-color: #F0F0F0;
+	
+}
+pre {
+	white-space: pre-line;
+}
+.textsize{
+    font-weight: 600;
+}
+.head-text{
+    font-size: 22pt;
+	font-weight: 600;
+	text-align: center;
+}
+.textcut{
+    text-decoration: line-through;
+}
+.comments > pre {
+    font-style: italic;
+	background-color: #ffff004d;
+    margin: 15px;
+}
+a {
+	color: #A4A400;
+}
+.copyright{
+    max-width: max-content;
+    white-space: pre-line;
+	text-align: right;
+	
+}
