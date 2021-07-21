@@ -7,6 +7,17 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     color: steelblue;
 }
+
+.rotatetext::first-letter{
+    float: left;
+  font-size: 30px;
+  line-height: 0.80;
+}
+.listcolor{
+    font-size: medium;
+    font-weight: bold;
+  color:yellowgreen;
+}
 body{
     background-color:#161b22;
     color: white;
