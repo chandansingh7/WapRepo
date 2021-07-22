@@ -1,0 +1,146 @@
+body{
+    background-image: url('images/background.png');
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header-back{
+    height: 50px;
+    background-image: url('images/bannerbg.png');
+    width: -webkit-fill-available;	
+}
+.headerbox{
+    display:flex;  
+}
+.display-name{
+    font-size: 24pt;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;    
+    text-shadow: 3pt 3pt #999999;
+}
+.imgalign{
+    align-items: center;
+}
+
+.content-area{    
+    border: 4px gray solid;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;     
+}
+.content-area {
+    position: relative;
+}
+
+.rating {
+    display: flex;
+    color: red;  
+    align-items: center;
+    background-image: url("images/rbg.png");
+    font-weight: bold;
+    font-size: 48pt; 
+}
+.left-bar {
+    position: absolute;
+    font-family: Arial, sans-serif;
+    background-color: #A2B964;
+    width: 252px;
+    height: 1005px;
+    right: 0px;
+    padding-bottom: 2px;      
+}
+.left-bar > dl {
+    padding-left: 10pt;
+    padding-right: 10pt;
+    margin-bottom: 0;
+}
+
+.left-bar > ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 10pt;
+}
+
+.review-section {
+    margin-right: 250px;
+}
+
+.comments-container {
+    position: relative;
+    padding: 5px;
+    width: 550px;
+}
+
+.comments {
+    font-weight: bold;
+    background-color: #E8DC9B;
+    padding: 8px;
+    border: 2px gray solid;
+    border-radius: 10px;
+}
+
+.comments > img {
+    padding-right: 5px;
+}
+
+
+.comments-col-1, .comments-col-2 {
+    width: 47%;
+    height: 900px;
+}
+
+.footer-style {
+    background-color: #A2B964;
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer-style > p {
+    margin: 0;
+}
+
+.comments-col-2 {
+    position: absolute;
+    left: 49%;
+    top: 5px;
+}
+
+.comments-col-1 {
+    padding-left: 3px;
+}
+
+.comments > img, .user > img {
+    float: left;
+}
+
+.comments:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.user {
+    margin-bottom: 20pt;
+}
+
+.validator {
+    position: absolute;
+    right: 0;
+    top: 1105px;
+}
+
+
