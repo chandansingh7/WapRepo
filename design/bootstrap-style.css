@@ -1,0 +1,55 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    padding: 0;
+
+}
+.header {
+    background-color: #ADD8E6;
+    color: black;
+    padding: 25px;
+   
+}
+
+.header > h1{
+    color: black;    
+    font-size: larger;
+    text-align: center;
+}
+.menu-header, .footer{
+    
+    background-color: #2F4F4F;    
+    color: white;
+    padding: 5px;
+}
+.menu-header{
+    padding: 0px;
+}
+
+.menuitem{    
+    border-right: 1px solid black ;
+    padding: 10px;
+}
+nav .navbar-nav li a {
+    color: white;
+}
+.column-container{
+    height: 600px;
+}
+.column-1{
+    background-color: #AAAAAA;
+}
+.column-2{
+    background-color: #BBBBBB;
+}
+.column-3{
+    background-color: #CCCCCC;
+}
+.footer{
+    text-align: center;    
+    padding: 25px;
+}
+.footer > h1{
+    font-size: larger;
+}
