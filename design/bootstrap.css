@@ -608,7 +608,7 @@ progress {
     max-width: 540px;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
@@ -3510,7 +3510,7 @@ textarea.form-control-lg {
     left: auto;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .dropdown-menu-md-start {
     --bs-position: start;
   }
@@ -4048,7 +4048,7 @@ textarea.form-control-lg {
     display: none;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .navbar-expand-md {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4915,7 +4915,7 @@ textarea.form-control-lg {
     border-left-width: 1px;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .list-group-horizontal-md {
     flex-direction: row;
   }
@@ -6215,7 +6215,7 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .sticky-md-top {
     position: -webkit-sticky;
     position: sticky;
@@ -8171,7 +8171,7 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .float-md-start {
     float: left !important;
   }
