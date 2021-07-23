@@ -1,9 +1,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.container{
-    padding: 0;
-
+    margin: 10px;
 }
 .header {
     background-color: #ADD8E6;
@@ -35,6 +32,7 @@ nav .navbar-nav li a {
     color: white;
 }
 .column-container{
+    margin: 0px;
     height: 600px;
 }
 .column-1{
