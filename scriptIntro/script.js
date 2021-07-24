@@ -103,9 +103,9 @@ console.log(`Orignal Array Multiply by 10 -> ${times10} ${myFunctionTest([10, 30
 var allas3 = a.map(a => a=3);
 console.log(`Mpping all element with 3 -> [${allas3}] ${myFunctionTest([3, 3, 3, 3, 3], allas3)}`);
 
-/**return array with only elements equal to 3; */
+/**return array with elements equal to 3; */
 var filteras3 = a.filter(a => a==3);
-console.log(`Mpping element with 3 -> [${filteras3}] ${myFunctionTest([3, 3, 3], filteras3)}`);
+console.log(`Filter element equal 3 -> [${filteras3}] ${myFunctionTest([3, 3, 3], filteras3)}`);
 
 /**return the product of all elements; */
 console.log(`multiplication of all elements is ->${multiply(a)} ${myFunctionTest(135,multiply(a))}`);
