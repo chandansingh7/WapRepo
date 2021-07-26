@@ -2,6 +2,7 @@ var timer;
 var speed = 250;
 
 window.onload = function() {
+    'use strict'; 
     var start = document.getElementById("start");
     var stop = document.getElementById("stop");
     var turbo = document.getElementById("turbo");
