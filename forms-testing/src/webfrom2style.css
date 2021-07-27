@@ -1,0 +1,28 @@
+
+.nav-justify {
+    justify-content: flex-start !important;
+align-items: flex-start;
+}
+.nav-justify > a:nth-child(3) {
+    flex: auto;
+}
+
+.buttons > *{
+    margin: .5rem .9rem;
+}
+.nav-link1{
+    justify-content:flex-end;
+    text-align-last: right;
+}
+.nav-border{    
+    border-right: 1px solid white ;
+    padding-right: 20px;
+}
+.navbar-brand{
+    font-family: sans-serif;
+    font-size: larger;
+}
+.nav-link{
+    font-family: sans-serif;  
+    font-size:medium;
+}

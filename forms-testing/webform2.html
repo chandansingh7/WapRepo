@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Layout Design</title>
+        <meta charset="utf-8">
+        <link href="../design/bootstrap.min.css" rel="stylesheet" type="text/css" >
+        <link href="../design/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="src/webfrom2style.css" rel="stylesheet" type="text/css" />
+   <script src="src/tests.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid nav-justify">
+              <a class="navbar-brand nav-border" href="#">MUM Golden Dome Market:::SRM System</a>
+              <a class="navbar-brand nav-link nav-border" href="#"> Products</a>
+              <a class="navbar-brand nav-link " href="#"> Suppliers</a>
+              <a class="navbar-brand nav-link " href="#"> Hello!</a>
+              <button class="btn btn-light">Sign out</button>
+              </div>
+            </div>
+          </nav>
+        <div class="container p-5">
+            <form>
+                <h3>New Product Form</h3>
+                <div class="row p-2">
+                    <div class="col-6">
+                        <label for="productNumber" class="form-label">Product Number</label>
+                        <input type="text" class="form-control" id="productNumber">
+                    </div>
+                    <div class="col-6">
+                        <label for="quantityInStock" class="form-label">Quantity in Stock</label>
+                        <input type="number" value="0" class="form-control" id="quantityInStock">
+                      </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-6">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="string" class="form-control" id="name">
+                    </div>
+                    <div class="col-6">
+                        <label for="supplier" class="form-label">Supplier:</label>
+                        <select  class="form-control" id="supplier">
+                            <option value="" disabled selected>Select a Supplier</option>
+                        </select>
+                      </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col-6">
+                        <label for="unitPrice" class="form-label">Unit Price</label>
+                        <input type="number" value="0.0" class="form-control" id="unitPrice">
+                    </div>
+                    <div class="col-6">
+                        <label for="dateSupplied" class="form-label">Date Supplied</label>
+                        <input type="text" value="" placeholder="yyyy-mm-dd" class="form-control" id="dateSupplied" pattern="^\d{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])$">
+                        <label for="dateSupplied" class="form-label" id="dateError">Enter a valid Date</label>
+                    
+                    </div>
+                </div>
+                <div class="p-2 buttons float-end">
+                    <button type="reset" class="btn btn-outline-dark">Reset</button>
+                    <button class="btn btn-outline-warning">Cancel</button>
+                    <button type="submit" id="addProduct" class="btn btn-outline-info ">Add Product</button>
+                </div>
+              </form>
+        </div>
+
+
+		<a href="../index.html">Home</a>
+    </body>
+</html>

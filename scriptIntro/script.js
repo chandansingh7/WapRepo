@@ -64,7 +64,7 @@ function findLongestWord(string){
         return longStr > string.length ? longStr :string.length
     });
 }
-console.log("Expected out for function findLongestWord(['Expected', 'out', 'for', 'functions']) is 8 " + myFunctionTest(8, findLongestWord(['Expected', 'out', 'for', 'function'])));
+console.log("Expected out for function findLongestWord(['Expected', 'out', 'for', 'functions']) is 9 " + myFunctionTest(9, findLongestWord(['expected', 'out', 'for', 'functions'])));
 
 /** filterLongWords an takes an array of words and an integer i and returns the array of words that are longer than i */
 function filterLongWords(strings, i){
