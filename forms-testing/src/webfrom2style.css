@@ -26,3 +26,6 @@ align-items: flex-start;
     font-family: sans-serif;  
     font-size:medium;
 }
+.bg-primary{
+    background-color: #31e1a1;
+}

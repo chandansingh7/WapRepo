@@ -13,12 +13,16 @@
         <form id="form">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Enter email">
+                <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Enter email" required>
                 <div class="form-text">We'll never share your email with anyone else</div>
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Password</label>
-                <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}$">
+                <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}$" title="Your password must contain at least one number and one uppercase and lowercase letter, and at least 10 or more characters">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Url</label>
+                <input type="text" class="form-control form-control-lg" id="exampleInputurl" placeholder="url" required pattern="https?://.+" title="please enter valid url must be http:// or https://">
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
