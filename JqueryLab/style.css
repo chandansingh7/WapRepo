@@ -1,0 +1,39 @@
+.circles {
+    position: relative;
+    width: 40%;
+    left: 10%;
+}
+
+.circle {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    background-color: blue;
+    border-radius: 100%;
+    opacity: 1.0;
+    margin-top: 40%;   
+}
+
+label {
+    margin: 5px;
+    display: inline-grid;
+}
+
+input {
+    margin: 5px;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: 210px;
+    padding-top: 22%;
+    position: fixed;
+   
+}
+
+button{ 
+    background-color: darkslategray;
+    width: 60px;
+    height: 25px;
+    margin-left: 10px;
+}
