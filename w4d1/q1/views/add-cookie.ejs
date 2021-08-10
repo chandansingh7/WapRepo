@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <title>Q1</title>
+        <style>
+            div {
+                margin: 20px;
+            }
+            table {
+                position: relative;                
+            }
+        </style>
+    </head>
+
+ <body>
+     
+
+    <div id="divtop">
+        <table border="1">
+            <caption>Cookies</caption>
+            <tr>
+                <th>Key</th>
+                <th>Value</th>
+            </tr>
+              <% for(const key in cookies) { %>
+                <tr><th><%= key %></th><th><%= cookies[key] %></th></tr>
+              <% } %>
+        </table>
+    
+
+     <div>
+        <form action="add-cookie" method="POST">
+            <label>Key :</label>
+            <input type="text" name="key" />
+            <label>Value :</label>
+            <input type="text" name="value" />
+            <button type="submit">Add Cookie</button>
+        </form>
+    </div>
+</div>
+ </body>
+</html>
